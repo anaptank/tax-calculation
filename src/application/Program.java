@@ -44,7 +44,6 @@ public class Program {
 				LegalPerson legalPerson = new LegalPerson(name, annualIncome, numberOfEmployees);
 				list.add(legalPerson);
 			}
-			
 		}
 		
 		System.out.println();
@@ -54,5 +53,4 @@ public class Program {
 			System.out.println(tax.getName() + ": $ " + String.format("%.2f", tax.tax()));
 		}
 	}
-
 }
